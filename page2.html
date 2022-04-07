@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        table, th, td {
+          border: 1px solid black;
+        }
+        td {
+  text-align: center;
+}
+        </style>
+
+        
+</head>
+<body>
+
+    <table>
+        <caption>Student Details</caption>
+        <tr>
+            <th  colspan ="2">STUDENTS </th>
+        </tr>
+        <tr>
+          <th>students</th>
+          <th>usn</th>
+          <th>class</th>
+        </tr>
+        <tr>
+          <td>Aftab</td>
+          <td>IS130</td>
+          
+        </tr>
+        <tr>
+          <td>Mahima</td>
+          <td>IS048</td>
+         
+        </tr>
+
+        <tr>
+            <td>Satwik</td>
+            <td>IS143</td>
+            <td rowspan="0">5B</td>
+          </tr>
+      </table> 
+
+      <br>
+      <h3>Sign Up :-</h3>
+      <form>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="pass">Password:</label><br>
+        <input type="password" id="pass" name="pass">
+        <br><br><br>
+
+<p>Select even semester</p><br>
+        <input type="radio" id="2" name="semester" value="2">
+            <label for="2">2</label><br>
+            <input type="radio" id="4" name="semester" value="4">
+            <label for="4">4</label><br>
+            <input type="radio" id="6" name="semester" value="6">
+            <label for="6">6</label>
+
+
+            <p>Select the subjects enrolled:</p>
+            <input type="checkbox" id="Web Tech" name="Web Tech" value="web">
+            <label for="Web Tech"> Web Tech</label><br>
+            <input type="checkbox" id="Blockchain" name="Blockchain" value="blockchain">
+            <label for="Bloackchain"> Blockchain</label><br>
+            <input type="checkbox" id="C++" name="C++" value="Cpp">
+            <label for="C++"> C++</label>
+            <br><br><br>
+
+            <textarea id="feedback" name="feedback" rows="4" cols="50">
+                feedback:
+                </textarea>
+
+
+      </form> 
+
+      
+
+</html>
