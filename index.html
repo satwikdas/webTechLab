@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+</head>
+<body>
+
+<form  onsubmit="return false">
+
+ <label for="a">Number a</label><br>
+ <input name="num1" placeholder="Enter value of num 1" type="text" id="a"><br>
+
+ <label for="b">Number b</label><br>
+ <input name="num2" placeholder="Enter value of num 2" type="text" id="b"><br>
+
+ <button onclick="add();" value="Submit">Submit</button>
+
+</form>
+<p id="display">Result Here   </p>
+
+<script>
+function add(){
+let a = document.getElementById("a").value;
+let b = document.getElementById("b").value;
+
+let sum = ( parseInt(a)+parseInt(b));
+document.getElementById("display").innerHTML = "Sum is :"+sum;
+}
+
+
+</script>
+
+    
+</body>
+</html>
